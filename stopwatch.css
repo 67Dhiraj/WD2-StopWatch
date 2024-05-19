@@ -1,0 +1,67 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .nav-item {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-item:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  .navbar.scrolled {
+    background-color: #222; /* Change background color when scrolled */
+  }
+  
+  .content {
+    height: 100px; /* For demonstration purpose to enable scrolling */
+    padding-top: 50px; /* Ensure content doesn't get hidden behind the fixed navbar */
+  }
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(236, 188, 188);
+}
+
+.stopwatch {
+  margin: 50px auto;
+}
+
+.display { 
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+
+
+
+  
